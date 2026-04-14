@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opportunities - EquipED</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">EquipED</h1>
+            <nav class="nav">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="careers.html" class="nav-link">Careers</a>
+                <a href="opportunities.html" class="nav-link active">Opportunities</a>
+                <a href="progress.html" class="nav-link">Progress</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="page-header">
+            <h2>Opportunities</h2>
+            <p>Free resources to help you learn and grow. All links open in a new tab.</p>
+        </section>
+
+        <!-- Internships Section -->
+        <section class="opportunity-section">
+            <h3 class="section-title">💼 Internships</h3>
+            <div class="opportunity-grid" id="internshipsGrid">
+                <!-- Loaded by JavaScript -->
+            </div>
+        </section>
+
+        <!-- Courses Section -->
+        <section class="opportunity-section">
+            <h3 class="section-title">📚 Online Courses</h3>
+            <div class="opportunity-grid" id="coursesGrid">
+                <!-- Loaded by JavaScript -->
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section class="opportunity-section">
+            <h3 class="section-title">🏆 Certifications</h3>
+            <div class="opportunity-grid" id="certificationsGrid">
+                <!-- Loaded by JavaScript -->
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="opportunity-section">
+            <h3 class="section-title">🛠️ Projects & Competitions</h3>
+            <div class="opportunity-grid" id="projectsGrid">
+                <!-- Loaded by JavaScript -->
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>Built for students with limited resources.</p>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            renderOpportunities();
+        });
+    </script>
+</body>
+</html>
