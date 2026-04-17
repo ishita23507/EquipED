@@ -1,6 +1,4 @@
-// ========================================
 // Career Data
-// ========================================
 const careers = [
     {
         id: "software-developer",
@@ -273,10 +271,7 @@ const careers = [
         related: ["hr-manager", "content-writer", "registered-nurse"]
     }
 ];
-
-// ========================================
 // Opportunities Data
-// ========================================
 const opportunities = {
     internships: [
         { name: "LinkedIn Jobs", desc: "Search internships worldwide", url: "https://www.linkedin.com/jobs/internship-jobs" },
@@ -308,11 +303,7 @@ const opportunities = {
         { name: "The Odin Project", desc: "Build real web projects", url: "https://www.theodinproject.com/" }
     ]
 };
-
-// ========================================
 // Render Functions
-// ========================================
-
 function renderCareers() {
     const grid = document.getElementById('careersGrid');
     if (!grid) return;
@@ -590,11 +581,7 @@ function setupCareerFilters() {
         });
     });
 }
-
-// ========================================
 // Utility Functions
-// ========================================
-
 function capitalizeFirst(str) {
     return str.charAt(0).toUpperCase() + str.slice(1);
 }
