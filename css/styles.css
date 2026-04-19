@@ -1,7 +1,6 @@
-/* ========================================
-   CSS Variables & Reset
-======================================== */
-:root {
+/* CSS Variables & Reset */
+:root
+{
     --primary: #2563eb;
     --primary-dark: #1d4ed8;
     --success: #059669;
@@ -17,18 +16,21 @@
     --max-width: 800px;
 }
 
-*, *::before, *::after {
+*, *::before, *::after 
+{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-html {
+html 
+{
     font-size: 16px;
     -webkit-text-size-adjust: 100%;
 }
 
-body {
+body 
+{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
     line-height: 1.6;
     color: var(--text);
@@ -38,24 +40,22 @@ body {
     flex-direction: column;
 }
 
-/* ========================================
-   Layout
-======================================== */
-.container {
+/* Layout*/
+.container 
+{
     width: 100%;
     max-width: var(--max-width);
     margin: 0 auto;
     padding: 0 1rem;
 }
 
-main {
+main 
+{
     flex: 1;
     padding: 1.5rem 0 3rem;
 }
 
-/* ========================================
-   Header & Navigation
-======================================== */
+/* Header & Navigation */
 .header {
     background: var(--bg);
     border-bottom: 1px solid var(--border);
@@ -112,9 +112,7 @@ main {
     }
 }
 
-/* ========================================
-   Hero Section
-======================================== */
+
 .hero {
     text-align: center;
     padding: 2rem 0;
@@ -134,9 +132,8 @@ main {
     margin: 0 auto;
 }
 
-/* ========================================
-   Feature Cards (Home)
-======================================== */
+/* 
+   Feature Cards (Home)*/
 .features {
     display: grid;
     gap: 1rem;
@@ -183,9 +180,6 @@ main {
     }
 }
 
-/* ========================================
-   Getting Started Section
-======================================== */
 .getting-started {
     background: var(--bg-alt);
     padding: 1.5rem;
@@ -210,9 +204,7 @@ main {
     color: var(--text);
 }
 
-/* ========================================
-   Page Headers
-======================================== */
+/*  Page Headers */
 .page-header {
     margin-bottom: 1.5rem;
 }
@@ -226,9 +218,7 @@ main {
     color: var(--text-light);
 }
 
-/* ========================================
-   Search & Filters
-======================================== */
+/*  Search & Filters*/
 .search-box {
     margin-bottom: 1rem;
 }
@@ -274,9 +264,7 @@ main {
     border-color: var(--primary);
 }
 
-/* ========================================
-   Career Cards Grid
-======================================== */
+/* Career Cards Grid */
 .careers-grid {
     display: grid;
     gap: 1rem;
@@ -330,9 +318,7 @@ main {
     display: none !important;
 }
 
-/* ========================================
-   Career Detail Page
-======================================== */
+/*Career Detail Page */
 .back-link {
     display: inline-block;
     margin-bottom: 1.5rem;
@@ -411,9 +397,7 @@ main {
     border-color: var(--primary);
 }
 
-/* ========================================
-   Opportunities Page
-======================================== */
+/* Opportunities Page*/
 .opportunity-section {
     margin-bottom: 2rem;
 }
@@ -465,9 +449,7 @@ main {
     flex-shrink: 0;
 }
 
-/* ========================================
-   Progress Page
-======================================== */
+/* Progress Page*/
 .progress-summary {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -616,9 +598,7 @@ main {
     border-top: 1px solid var(--border);
 }
 
-/* ========================================
-   Buttons
-======================================== */
+/* Buttons*/
 .btn {
     display: inline-block;
     padding: 0.65rem 1.25rem;
@@ -649,9 +629,6 @@ main {
     background: #b91c1c;
 }
 
-/* ========================================
-   Footer
-======================================== */
 .footer {
     background: var(--bg-alt);
     border-top: 1px solid var(--border);
@@ -664,11 +641,7 @@ main {
     color: var(--text-light);
     font-size: 0.85rem;
     margin: 0;
-}
 
-/* ========================================
-   Utility Classes
-======================================== */
 .sr-only {
     position: absolute;
     width: 1px;
